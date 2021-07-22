@@ -1,0 +1,29 @@
+name: e_commerce_app
+description: Developed by Eng Mouaz M AlShahmeh
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.3
+  get: ^4.2.3
+  flutter_native_splash: ^1.2.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/categories.json
+    - assets/data/products.json
+    - assets/images/apple.png
+    - assets/images/banana.png
+    - assets/images/broccoli.png
+    - assets/images/carrot.png
+    - assets/images/kiwi.png
+    - assets/images/orange.png
+    - assets/images/peppers.png
+    - assets/images/strawberry.png
+    - assets/images/watermelon.png
