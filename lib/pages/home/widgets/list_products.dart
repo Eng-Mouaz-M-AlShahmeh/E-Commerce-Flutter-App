@@ -1,4 +1,3 @@
-import 'package:e_commerce_app/pages/favourite/controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../pages/home/controller.dart';

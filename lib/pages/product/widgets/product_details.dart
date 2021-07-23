@@ -1,4 +1,3 @@
-import '../../../widgets/product_image.dart';
 import 'package:flutter/material.dart';
 import '../../../models/product.model.dart';
 import 'package:get/get.dart';

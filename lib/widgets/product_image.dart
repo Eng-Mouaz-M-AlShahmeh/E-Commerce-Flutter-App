@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ProductImage extends StatelessWidget {
-  final String? image;
+  final String image;
   final double? width;
   final double? height;
   final double? padding;
@@ -17,7 +17,7 @@ class ProductImage extends StatelessWidget {
     return Padding(
             padding: EdgeInsets.all(this.padding ?? 0),
             child: Image.asset(
-              this.image!,
+              this.image,
               height: this.height,
               width: this.width,
               fit: BoxFit.contain,
